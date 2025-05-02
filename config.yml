@@ -27,7 +27,7 @@ menu:
         #  weight: 6
 
 params:
-    description: "Hi there! I'm Alba Cuenca, a PhD Candidate and Assistant Lecturer at Monash University. I work on epistemic logics, in particular, non-classical ways to dealing with epistemic modalities. My research interests includes epistemic logics, modal logics and conditionals." 
+    description: "Hi there! I'm Alba Cuenca, I'm an argentinian logician being a PhD Candidate and Assistant Lecturer at Monash University, Australia. I work on epistemic logics, in particular, non-classical ways to dealing with epistemic modalities. My research interests includes epistemic logics, modal logics and conditionals." 
     author: Alba Cuenca
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
@@ -53,7 +53,7 @@ params:
     profileMode:
           enabled: true
           title: Alba Cuenca
-          subtitle: "Hi there! I'm Alba Cuenca, a PhD Candidate and Assistant Lecturer at Monash University. I work on epistemic logics, in particular, non-classical ways to dealing with epistemic modalities. My research interests includes epistemic logics, modal logics and conditionals."
+          subtitle: "Hi there! I'm Alba Cuenca, I'm an argentinian logician being a PhD Candidate and Assistant Lecturer at Monash University, Australia. I work on epistemic logics, in particular, non-classical ways to dealing with epistemic modalities. My research interests includes epistemic logics, modal logics and conditionals."
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
