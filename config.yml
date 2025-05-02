@@ -1,4 +1,4 @@
-baseURL: "https://albaecuenca.github.io/" 
+baseURL: "" 
 title: Alba Cuenca
 theme: PaperMod
 
@@ -10,25 +10,25 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
+        #- name: Books
+        #  url: books/
+        #  weight: 5 
         - name: Papers
           url: papers/
           weight: 2
-        - name: Courses
-          url: courses/
+        - name: Teaching Experience
+          url: teaching/
           weight: 3
-        - name: Data
-          url: data/
+        - name: Presentations
+          url: presentations/
           weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+        #- name: Blog
+        #  url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+        #  weight: 6
 
 params:
-    description: "I am a Professor of Philology at the Institute of Romance Philology in Regensburg, Germany. My research focuses mostly on Portuguese irregular verbs."
-    author: Moritz-Maria von Igelfeld
+    description: "Hi there! I'm Alba Cuenca, a PhD Candidate and Assistant Lecturer at Monash University. I work on epistemic logics, in particular, non-classical ways to dealing with epistemic modalities. My research interests includes epistemic logics, modal logics and conditionals." 
+    author: Alba Cuenca
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -42,7 +42,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: ["papers","teaching","presentations"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -52,26 +52,26 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Professor Dr von Igelfeld
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
+          title: Alba Cuenca
+          subtitle: "Hi there! I'm Alba Cuenca, a PhD Candidate and Assistant Lecturer at Monash University. I work on epistemic logics, in particular, non-classical ways to dealing with epistemic modalities. My research interests includes epistemic logics, modal logics and conditionals."
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
           buttons:
             - name: Papers
               url: papers/
-            - name: Courses
-              url: courses/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+            - name: Teaching Experience
+              url: teaching/
+            - name: Presentations
+              url: presentations/
+            # - name: Books
+            #   url: books/
+            # - name: Tags
+            #   url: tags/
+            # - name: Archive
+            #   url: archive/
+            # - name: Blog
+            #   url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
 
     socialIcons:
         - name: CV
