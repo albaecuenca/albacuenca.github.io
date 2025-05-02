@@ -10,18 +10,18 @@ taxonomies:
 
 menu:
     main:
-        #- name: Books
-        #  url: books/
-        #  weight: 5 
         - name: Papers
           url: papers/
-          weight: 2
-        - name: Teaching Experience
-          url: teaching/
-          weight: 3
+          weight: 1
         - name: Presentations
           url: presentations/
-          weight: 4 
+          weight: 2 
+        - name: Teaching
+          url: teaching/
+          weight: 3
+        - name: Resume
+          url: cv.pdf
+          weight: 4
         #- name: Blog
         #  url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
         #  weight: 6
@@ -42,7 +42,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["papers","teaching","presentations"]
+    MainSections: ["papers","teaching","presentations","resume"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -60,10 +60,12 @@ params:
           buttons:
             - name: Papers
               url: papers/
-            - name: Teaching Experience
-              url: teaching/
             - name: Presentations
               url: presentations/
+            - name: Teaching
+              url: teaching/
+            - name: Resume
+              url: cv.pdf
             # - name: Books
             #   url: books/
             # - name: Tags
@@ -74,8 +76,8 @@ params:
             #   url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
 
     socialIcons:
-        - name: CV
-          url: cv.pdf
+        #- name: CV
+        #  url: cv.pdf
         - name: Email
           url: mailto:albaecuenca@gmail.com
         #- name: Zoom
@@ -84,6 +86,8 @@ params:
         #  url: location/
         #- name: Office Hours
         #  url: officehours/
+        - name: Orcid
+          url: https://orcid.org/0009-0008-0240-8970
         - name: Google Scholar
           url: https://scholar.google.com.au/citations?user=lzaQMEIAAAAJ&hl=en&oi=ao
         #- name: GitHub
